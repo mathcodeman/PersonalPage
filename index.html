@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Hins Portflio Webite</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900|display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+        
+        
+    </head>
+    
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">My Skills</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <!-- Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Hins Guo</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Developer</p>
+            <img src="img/profile.jpg" class="intro__img">
+        </section>
+
+        <!--My Projects-->
+        <section class="my_projects" id="projects">
+            <h2 class="section__title section__title--projects">What I do</h2>
+            <div class="projects">
+
+                <div class="project">
+                    <h3>Software Develoment</h3>
+                    <p>Programming allows me to build anything that comes out in my mind, I enjoyed creating things and make it a product</p>
+                    <p>Skill Sets: Python3, Java, JavaScript, MySQL, HTML5, CSS3</p>
+                    <p>Frameworks: Flask, Django</p>
+                </div>
+
+                <div class="project">
+                    <h3>Retail Investor</h3>
+                    <p>I enjoyed putting programming skills into the investing world, Part-time trader and stock investor</p>
+                    <p>Analysis skills: Trend analysis, Fundamental analysis</p>
+                </div>
+
+                <div class="project">
+                    <h3>Blockchain Lovers</h3>
+                    <p>Blockchain is one of my favourite technologies and will see the industry will take off in the next couple of years</p>
+                    <p>Currently working on smart contract projects</p>
+                    <p>Favourite chains: Ethereum, Polkadot</p>
+                </div>
+
+            </div>
+            
+            <a href="#work" class="btn">Resume!!</a>
+        </section>
+
+
+        <!--About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">About myself</h2>
+            <p class="section__subtitle section__subtitle--about">A software dev based in Vancouver,BC</p> 
+
+            <div class="about-me__body">
+                <p>I am currently pursuing my second degree of <Strong>Computer Science</Strong> in <Strong>Oregon State Univeristy</Strong></p>
+                <p>I had my pervious degree completed in <Strong>University of Alberta</Strong> with a bachelor degree of science in <Strong>Mathematics</Strong></p>
+                <p>Looking to start my career into tech industry</p>
+            </div>
+
+            <img src="Banner.png" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+
+
+        <!--My Skills-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://github.com/mathcodeman/stockgraph" class="portfolio__item">
+                    <img src="img/stockgraph.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://github.com/mathcodeman/kwok-s-finance" class="portfolio__item">
+                    <img src="img/finance.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://github.com/mathcodeman/heightcounter" class="portfolio__item">
+                    <img src="img/heightcounter.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                
+                
+                
+            </div>
+        </section>
+        
+
+        <!--Footer-->
+        <footer>
+            <a href="#" class="footer__link">hinsku@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
